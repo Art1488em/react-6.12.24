@@ -1,19 +1,18 @@
-import React from "react";
-import s from "./Brands.module.scss";
+import React from 'react'
+import s from './Brands.module.scss'
 
 const Brands = () => {
   return (
     <>
-    <div className={s.brands_img}>
-    <img src="/brands-1.svg" alt="" />
-      <img src="/brands-2.svg" alt="" />
-      <img src="/brands-3.svg" alt="" />
-      <img src="/brands-4.svg" alt="" />
-      <img src="/brands-5.svg" alt="" />
-    </div>
-     
+        <section className={s.brands}>
+            <img src="Group.svg" alt="" />
+            <img src="zara-logo.svg" alt="" />
+            <img src="gucci-logo.svg" alt="" />
+            <img src="prada-logo.svg" alt="" />
+            <img src="CalvinKlein.svg" alt="" />
+        </section>
     </>
-  );
-};
+  )
+}
 
-export default Brands;
+export default Brands
